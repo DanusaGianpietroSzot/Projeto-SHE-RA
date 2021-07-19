@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/ZAO_store_social.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>SHE-RA</title>
+</head>
+<body>
+    <main>
+        <section class="flex-center">
+            <img class="bf-logo" src="img/final.png" width="100%" alt="Black Friday Logo">
+        </section>
+
+        <section class="flex-center flex-column text-n-input">
+            <h2><span class="black-friday-text">PRINCESA DO PODER</span><br /> <span class="zao-store-text">SHE -RA</span></h2>
+            <p>PRODUTOS EM LEILÃO COM DESCONTOS <br />DE ATÉ <span class="discount-text">50%!!!</span> CORRA!!!</p>
+            <h3 class="CTA-text">INSCREVA-SE EM NOSSO <span class="newsletter-text">SITE</span> <br />E RECEBA O AVISO ASSIM QUE OS LEILÕES COMEÇAREM! </h3> <br>
+            <div class="input-wrapper">
+                <input id="emailInput" type="email" placeholder="Digite seu melhor E-mail...">
+                <button id="subscribeBtn">QUERO PARTICIPAR!</button>
+            </div>
+            <p id="mesage-display"></p>
+            <a href="javascript:void(0);" rel="noopener noreferrer">SEGUIR PARA OS PRODUTOS DISPONÍVEIS</a>
+        </section>
+
+        <section id="modal" class="flex-center">
+            <div class="modal-body">
+                <div class="modal-content">
+                    <h2>INSCRIÇÃO CONCLUÍDA!</h2>
+                    <p><span>Parabéns</span>, sua inscrição foi concluída com sucesso! Quando nosso leilão dos ítens da
+                        <span>SHE-RA: PRINCESA DO PODER</span> estiver em vigor você receberá uma mensagem no e-mail cadastrado! Fique de olho!
+                        </p> 
+                    <button id="closeBtn">&times;</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./functions.js"></script>
+</body>
+</html>
